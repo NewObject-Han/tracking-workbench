@@ -32,17 +32,7 @@ npm run preview  # 预览构建产物
 
 生产周期取 `FFixLeadTime + FVarLeadTime`；日本库存、月销量、报关、付款等走 `F_` 前缀自定义字段。
 
-## 分享防护
-
-对外分享链接支持两个参数：
-
-- `?ref=张三` — 页面水印显示受邀人与时间，截图外传可追溯
-- `?guard=0` — 关闭水印与防复制（自用调试）
 
 ## 技术栈
 
 React 18 · Vite 5 · TypeScript · Ant Design 5 · zustand · TanStack Query · dayjs
-
-## License
-
-[MIT](./LICENSE)
