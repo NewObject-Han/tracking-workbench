@@ -1,0 +1,11 @@
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# 本地构建/预览辅助脚本（本机环境专用）
+_build.mjs
+_preview.mjs

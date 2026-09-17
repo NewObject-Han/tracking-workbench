@@ -1,0 +1,18 @@
+/* 锁定整体高度：html/body/#root 占满视口，避免出现整页滚动条 */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  overflow: hidden;
+}
+
+/* 应用外壳占满视口；100dvh 适配移动端动态地址栏，老浏览器回退 100vh */
+.app-shell {
+  height: 100vh;
+  height: 100dvh;
+}
